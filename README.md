@@ -40,6 +40,16 @@ npm run build
 
 Output is written to `dist/`.
 
+## CI
+
+GitHub Actions runs on pushes to `main` and on pull requests (`.github/workflows/ci.yml`):
+
+- Node.js **v24** with npm dependency caching
+- `npm ci`
+- `npm run lint`
+- `npm run typecheck`
+- `npm run build`
+
 ## Deploy
 
 Frontend is deployed to **Netlify** (CLI-driven; see later TODO items).
