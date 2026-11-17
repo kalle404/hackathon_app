@@ -31,6 +31,9 @@ App runs at [http://localhost:5173](http://localhost:5173).
 | `npm run format`       | Format with Prettier              |
 | `npm run format:check` | Check Prettier formatting         |
 | `npm run typecheck`    | TypeScript strict typecheck       |
+| `npm test`             | Run Jest unit tests               |
+| `npm run test:watch`   | Run Jest in watch mode            |
+| `npm run test:ci`      | Jest with coverage (CI)           |
 
 ## Build
 
@@ -48,6 +51,7 @@ GitHub Actions runs on pushes to `main` and on pull requests (`.github/workflows
 - `npm ci`
 - `npm run lint`
 - `npm run typecheck`
+- `npm run test:ci`
 - `npm run build`
 
 ## Deploy
